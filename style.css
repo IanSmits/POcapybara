@@ -44,6 +44,7 @@ html, body {
     }
 
 .page-content {
+  
    margin-left: 200px;
 }
 
@@ -69,15 +70,20 @@ h2 {
 
 
 .page-nav {
+  color: #6f717d;
+  
  
 }
 
   .page-nav ul {
+    color: #6f717d;
     list-style-type: none;
     padding-left: 20px;
+    
   }
 
     .page-nav ul li {
+     color: #6f717d;
       transition: all 300ms ease;
       left: 0px;
       position: relative;
@@ -85,9 +91,14 @@ h2 {
     }
 
       .page-nav ul li:hover {
+        color: #6f717d;
         left: 4px;
       }
 
       .page-nav ul li a:visited {
         color: #6f717d;
       }
+a:link {
+  color: #6f717d;
+  style
+}
