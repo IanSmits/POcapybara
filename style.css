@@ -23,12 +23,12 @@ html, body {
   width: 800px;
   margin-left: 200px;
   position: absolute;
-  bottom: 0px;
+  bottom: -25px;
 }
 
   .main-nav a {
     display: inline-block;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     border-bottom: 10px solid white;
     background-color: rgba(255, 255, 255, 0.64);
     color: black;
@@ -40,7 +40,7 @@ html, body {
   }
 
     .main-nav a:hover {
-      bottom: -20px;
+      bottom: 20px;
     }
 
 .page-content {
@@ -100,5 +100,11 @@ h2 {
       }
 a:link {
   color: #6f717d;
-  style
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: #6f717d;
+  text-decoration: none;
+  font-weight: bold;
 }
