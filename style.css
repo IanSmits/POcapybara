@@ -21,7 +21,7 @@ html, body {
 
 .main-nav {
   width: 800px;
-  margin-left: 200px;
+  margin-left: 400px;
   position: absolute;
   bottom: -25px;
 }
@@ -45,7 +45,7 @@ html, body {
 
 .page-content {
    width:800px;
-   margin-left: 200px;
+   margin-left: 400px;
 }
 
 
@@ -113,4 +113,5 @@ a:visited {
 }
 img {
   float: right;
+  padding: 0px 60px;
 }
